@@ -11,6 +11,547 @@ resource "aws_s3_bucket" "data" {
     Environment = local.resource_prefix.value
   }
 }
+resource "aws_s3_bucket" "data1" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+resource "aws_s3_bucket" "data2" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data3" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data4" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data5" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data6" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data7" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data8" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data9" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data10" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data11" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data12" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data13" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data14" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data15" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data16" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data17" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data18" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data19" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+resource "aws_s3_bucket" "data20" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+resource "aws_s3_bucket" "data21" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data23" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data24" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data25" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data26" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data27" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data28" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data29" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data30" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data31" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data32" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data33" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data34" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data35" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data36" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data37" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data38" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+
+resource "aws_s3_bucket" "data39" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
+resource "aws_s3_bucket" "data40" {
+  # bucket is public
+  # bucket is not encrypted
+  # bucket does not have access logs
+  # bucket does not have versioning
+  bucket        = "${local.resource_prefix.value}-data"
+  acl           = "public-read"
+  force_destroy = true
+  tags = {
+    Name        = "${local.resource_prefix.value}-data"
+    Environment = local.resource_prefix.value
+  }
+}
 
 resource "aws_s3_bucket_object" "data_object" {
   bucket = aws_s3_bucket.data.id
